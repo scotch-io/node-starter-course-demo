@@ -7,4 +7,6 @@ var client = new twitter({
     access_token_secret: process.env.ACCESS_TOKEN_SECRET  
 })
 
+console.log(client);
+
 module.exports = client;
